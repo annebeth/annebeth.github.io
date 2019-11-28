@@ -15,17 +15,11 @@ baseurl: '' #change it according to your repository name
 #Profile information
 name: Annebeth Buis
 #tagline: PhD student in Computational Linguistics @ <a href="http://www.colorado.edu/linguistics/">CU Boulder</a>
-pic: perfil2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: kleine_profielfoto.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: anne.buis@colorado.edu
-#phone:
+email: annebethbuis@gmail.com
 website: www.annebeth.io #do not add http://
-linkedin: annebethbuis
-github: annebeth
-#twitter: ''
-
-
-# Tracker
-#analytics: UA-83979019-1
-#Update all the sections by editing the files inside _includes folder.
+linkedin: https://www.linkedin.com/in/annebethbuis/
+github: https://github.com/annebeth
+twitter: https://twitter.com/per_abuis
