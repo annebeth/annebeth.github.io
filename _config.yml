@@ -20,6 +20,6 @@ pic: kleine_profielfoto.jpeg  #place a 100x100 picture inside /assets/images/ fo
 #sidebar links
 email: annebethbuis@gmail.com
 website: www.annebeth.io #do not add http://
-linkedin: https://www.linkedin.com/in/annebethbuis/
-github: https://github.com/annebeth
-twitter: https://twitter.com/per_abuis
+linkedin: annebethbuis
+github: annebeth
+twitter: per_abuis
