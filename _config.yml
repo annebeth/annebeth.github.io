@@ -1,25 +1,36 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-title: Annebeth Buis
-url: 'annebeth.io'
-baseurl: '' #change it according to your repository name
+# Setup
+title:            Annebeth Buis
+tagline:          'A Jekyll theme'
+description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+url:              https://annebeth.io
+baseurl:          ''
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
+author:
+  name:           'Annebeth Buis'
+  url:            https://github.com/annebeth
+  email:          annebethbuis@gmail.com
 
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-#style: styles-6
+paginate:         5
+paginate_path:    '/blog/page:num'
+                  # Or '/blog/page:num' if you want to move your index pages
 
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-#Profile information
-name: Annebeth Buis
-#tagline: PhD student in Computational Linguistics @ <a href="http://www.colorado.edu/linguistics/">CU Boulder</a>
-pic: kleine_profielfoto.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-#sidebar links
-email: annebethbuis@gmail.com
-website: www.annebeth.io #do not add http://
-linkedin: annebethbuis
-github: annebeth
-twitter: per_abuis
+# Sidebar link settings
+sidebar_home_link:  true
+sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.

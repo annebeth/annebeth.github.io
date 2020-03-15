@@ -1,25 +1,14 @@
-<!-- Use icons from fontawesome when you are adding new item in the contact list  -->
-
-
-<div class="sidebar-wrapper">
+<div id="sidebar">
+  <header>
     <div class="profile-container">
-        <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
-        <h1 class="name">{% if site.name %}{{site.name}}{% endif %}</h1>
+        <img class="profile-img" src="{{site.baseurl}}/assets/images/profielfoto.jpeg" alt="profile picture" />
     </div>
+    <h1 class="site-title">{{ site.title }}</h1>
+  </header>
 
-    <div class="contact-container container-block">
-        <div class="social">
-          <a href="mailto: {{site.email}}"><i class="fa fa-envelope"></i></a>
+  {% include sidebar-nav-links.html %}
 
-          <a href="https://linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+  {% include sidebar-icon-links.html %}
 
-          <a href="http://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i></a>
-
-          <a href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
-        </div>
-    </div>
-
-   {% include skills.html %}
-   {% include languages.html %}
-
+  {% include copyright.html %}
 </div>
