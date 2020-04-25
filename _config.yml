@@ -4,8 +4,6 @@ highlighter:      rouge
 
 # Setup
 title:            Annebeth Buis
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://annebeth.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
