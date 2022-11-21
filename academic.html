@@ -1,0 +1,90 @@
+---
+layout: page
+title: Academic
+---
+
+<section id="academic">
+    <div class="container">
+      <div class="panel panel-default">
+        <h3>Papers and presentations</h3>
+        <div class="panel-body papers">
+        <h5><span class="fa fa-book"></span>&nbsp;&nbsp;<a
+          href="https://typology-and-nlp.github.io/2019/assets/2019/posters/8_Typological_Feature_Prediction_with_Matrix_Completion.pdf">Typological Feature Prediction with Matrix Completion</a>.<br>
+          <span
+          class="names"><strong>Annebeth Buis</strong> and Mans Hulden.</span>
+          Poster presented at the First Workshop for Typology in NLP, co-located with ACL 2019.
+        </h5>
+        </div>
+        <div class="panel-body papers">
+          <h5><span class="fa fa-book"></span>&nbsp;&nbsp;<a
+            href="https://www.aclweb.org/anthology/W19-4016/">Explaining Simple Natural Language Inference</a>.<br>
+            <span
+            class="names">Aikaterini-Lida Kalouli, <strong>Annebeth Buis</strong>, Livy Real, Martha Palmer, Valeria de Paiva.</span>
+            Proceedings of the 13th Linguistic Annotation Workshop (LAW 2019), co-located with ACL 2019.
+          </h5>
+          </div>
+      </div>
+      <div class="panel panel-default">
+        <h3>Research</h3>
+        <div class="panel-body">
+          {% for project in site.data.research %}
+          <h5 class="project">
+            <!-- <i class="fa fa-cog"></i>&nbsp;&nbsp; -->
+            <span class="title">{{ project.title }}</span>
+            <span class="dates">{{ project.dates }}</span>
+            <span class="company">
+              {{ project.company }}
+              {% if project.link %}
+              <a href="{{ project.link }}" target="_blank">
+                <i class="fa fa-external-link" style="font-size: 70%;"></i>
+              </a>
+              {% endif %}
+            </span>
+            {% if project.points %}
+            <ul>
+              {% for item in project.points %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+            {% if project.tech %}
+            <span class="tech">Technologies:</span>
+            <span class="techlist">{{ project.tech | array_to_sentence_string }}</span>
+            {% endif %}
+          </h5>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <h3>Teaching</h3>
+        <div class="panel-body">
+          {% for project in site.data.teaching %}
+          <h5 class="project">
+            <!-- <i class="fa fa-cog"></i>&nbsp;&nbsp; -->
+            <span class="title">{{ project.title }}</span>
+            <span class="dates">{{ project.dates }}</span>
+            <span class="company">
+              {{ project.company }}
+              {% if project.link %}
+              <a href="{{ project.link }}" target="_blank">
+                <i class="fa fa-external-link" style="font-size: 70%;"></i>
+              </a>
+              {% endif %}
+            </span>
+            {% if project.points %}
+            <ul>
+              {% for item in project.points %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+            {% if project.tech %}
+            <span class="tech">Technologies:</span>
+            <span class="techlist">{{ project.tech | array_to_sentence_string }}</span>
+            {% endif %}
+          </h5>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+</section>

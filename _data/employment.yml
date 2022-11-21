@@ -1,0 +1,27 @@
+- title: 'Software Engineer'
+  company: 'OVO Energy'
+  dates: 'May 2021 - now'
+  points:
+    - Currently working in the Smart Heat team, focusing on the backend and infrastructure.
+  tech:
+    - NodeJS
+    - Typescript
+    - Express
+    - Kafka
+    - PostgreSQL
+    - 'AWS (among others: CDK, ECS, DynamoDB, S3, EC2 and Lambdas)'
+    - Terraform
+- title: 'Junior Backend Software Engineer'
+  company: 'HEXR'
+  dates: 'Oct 2020 - Apr 2021'
+  points:
+    - Implemented API endpoints for an AR scanning app and internal dashboard.
+    - Productionised a prototype of a helmet-fitting algorithm.
+    - Improved test coverage and general code health.
+  tech:
+    - NodeJS
+    - Express
+    - Sequelize
+    - PostgreSQL
+    - Python
+    - 'AWS (S3, EC2 and Lambdas)'

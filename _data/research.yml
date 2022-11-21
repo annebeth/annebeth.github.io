@@ -1,0 +1,15 @@
+- title: 'Graduate Assistant'
+  company: 'University of Colorado Boulder'
+  dates: 'Jan 2019 - May 2019'
+  points:
+    - 'Developing NLP4DH: an application that allows academics interested in Digital Humanities to process corpora of text data with modern NLP methods. With Vilja Hulden.'
+- title: 'Research Assistant'
+  company: 'University of Colorado Boulder'
+  dates: 'Jun 2018 - Dec 2018'
+  points:
+    - 'Learning embeddings for ontology elements with neural networks for Martha Palmer.'
+- title: 'Research Intern'
+  company: 'Meertens Instituut · Amsterdam, The Netherlands'
+  dates: 'Sep 2015 - Dec 2015'
+  points:
+    - 'Working on automatic extractions of numeral constructions for a typological database in the “Language & Number” project. Supervised by Lisa Bylinina.Working on automatic extractions of numeral constructions for a typological database in the “Language & Number” project. Supervised by Lisa Bylinina.'

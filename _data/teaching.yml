@@ -1,0 +1,13 @@
+- title: 'Graduate Teaching Assistant'
+  company: 'University of Colorado Boulder'
+  dates: 'Sep 2017 - Dec 2019'
+  points:
+    - 'LING 1020: Languages of the World [Fall 2018, Fall 2019]'
+    - 'LING/CLAS 1010: The Study of Words [Spring 2018]'
+    - 'LING 1000: Language in US Society [Fall 2017]'
+- title: 'Grader'
+  company: 'University of Colorado Boulder'
+  link: 'http://verbs.colorado.edu/~mpalmer/Ling7800/index.html'
+  dates: 'Sep 2018 - Dec 2018'
+  points:
+    - 'Grading for the Computer Science/Linguistics graduate seminar on Computational Lexical Semantics.'
